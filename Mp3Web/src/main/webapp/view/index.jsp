@@ -29,6 +29,7 @@
 			</ul>
 	
 	
+	
 			<div class="panel-group">
 				<div class="panel panel-primary">
 				  	<div class="panel-heading">
@@ -37,10 +38,11 @@
 				  
 				  
 				  	<div class="panel-body" id="panelReproductor">
-				  		<audio  id="reproductor"  controls> </audio>
+				  		<audio  id="reproductor"> </audio>
 				  		
-				  		<div id="track">
-							<div class="progress progress-striped active" >
+				  		<div>
+				  			<div id="tiempo" class="text-left"></div>
+							<div class="progress progress-striped active"  id="track">
 			  					<div class="progress-bar" role="progressbar" id="progress"
 			      				 aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"
 			       				 style="width: 0%">
@@ -48,8 +50,13 @@
 			  					</div>
 							</div>
 						</div>
-						<button onClick="play()"><span class="glyphicon glyphicon-play"></span></button>
-						<button onClick="stop()"><span class="glyphicon glyphicon-pause"></span></button>
+						<div id="botones">
+							<a id="previous"	onClick="back()"><img src="/Mp3Web/resources/img/iconos/previous.png" value="previous"/></a>
+							<a id="play"		onClick="play()"><img src="/Mp3Web/resources/img/iconos/play.png" value="play"/></a>
+							<a id="pause"		onClick="stop()"><img src="/Mp3Web/resources/img/iconos/pause.png" value="pause"/></a>
+							<a id="next"		onClick="next()"><img src="/Mp3Web/resources/img/iconos/next.png" value="next"/></a>
+						
+						</div>											
 			
 				  	</div>
 			  
@@ -61,7 +68,7 @@
 		</div>
 	</div>
 	
-	<div id="path" value="${cancion.getPathMusica()}"></div>
+	<div id="path" value="/Mp3Web/mp3/"></div>
 		
 </div>
 
