@@ -98,8 +98,7 @@ botonStop		= $('#stop img');
 botonPrevious	= $('#previous img');
 botonNext		= $('#next img');	
 
-pathIconos = "\/Mp3Web\/resources\/img\/iconos";
-
+pathIconos =   "\/Mp3Web\/resources\/img\/iconos";
 
 initPlaylist();
 

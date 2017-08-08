@@ -51,10 +51,10 @@
 							</div>
 						</div>
 						<div id="botones">
-							<a id="previous"	onClick="back()"><img src="/Mp3Web/resources/img/iconos/previous.png" value="previous"/></a>
-							<a id="play"		onClick="play()"><img src="/Mp3Web/resources/img/iconos/play.png" value="play"/></a>
-							<a id="pause"		onClick="stop()"><img src="/Mp3Web/resources/img/iconos/pause.png" value="pause"/></a>
-							<a id="next"		onClick="next()"><img src="/Mp3Web/resources/img/iconos/next.png" value="next"/></a>
+							<a id="previous"	onClick="back()"><img src="/Mp3Web/resources/img/iconos/previous.png" value="previous" style="width: 48px"/></a>
+							<a id="play"		onClick="play()"><img src="/Mp3Web/resources/img/iconos/play.png" value="play" style="width: 48px"/></a>
+							<a id="pause"		onClick="stop()"><img src="/Mp3Web/resources/img/iconos/pause.png" value="pause" style="width: 48px"/></a>
+							<a id="next"		onClick="next()"><img src="/Mp3Web/resources/img/iconos/next.png" value="next" style="width: 48px"/></a>
 						
 						</div>											
 			
