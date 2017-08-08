@@ -11,7 +11,7 @@ public class ListaTemas {
 	
 	public ListaTemas(){
 	
-		String directorio = "C:\\Users\\mpadulao\\Documents\\GitHub\\Aplicacion\\Mp3Web\\src\\main\\webapp\\mp3";
+		String directorio = "C:\\Users\\jalputer\\Documents\\GitKraken\\Aplicacion1.1\\Aplicacion1.1\\Mp3Web\\src\\main\\webapp\\mp3";
 
 		/*File file = new File(System.getProperty("user.dir")+System.getProperty("file.separator")+"src"+
 							 System.getProperty("file.separator")+"main"+System.getProperty("file.separator")+"webapp"+System.getProperty("file.separator")+"mp3");
